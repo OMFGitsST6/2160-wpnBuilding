@@ -1,0 +1,21 @@
+.app {
+  /* Palette */
+  --pal-red-dark: #440000;
+  --pal-red-main: #992222;
+  --pal-red-lite: #ee4444;
+  --pal-grn-dark: #004400;
+  --pal-grn-main: #229922;
+  --pal-grn-lite: #44ee44;
+  --pal-blu-dark: #000044;
+  --pal-blu-main: #222299;
+  --pal-blu-lite: #4444ee;
+
+  /* Globals */
+  --ui-corner: .5em;
+  width: 100%;
+  height: 100%;
+
+  input, Output {
+    text-align: center;
+  }
+}
