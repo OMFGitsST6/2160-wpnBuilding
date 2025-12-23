@@ -12,10 +12,31 @@
 
   /* Globals */
   --ui-corner: .5em;
+  --ui-border: 1px solid lightgray;
   width: 100%;
   height: 100%;
 
   input, Output {
     text-align: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    th, td {
+      padding: .1em;
+      border: 1px solid lightgray;
+
+      &.lite {
+        border: none;
+      }
+    }
+
+    tr {
+      &.lite {
+        td, th {
+          border: none;
+        }
+      }
+    }
   }
 }
